@@ -1,0 +1,29 @@
+{
+  "name": "eslint-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint test.ts",
+    "pretest": "tsc test.ts",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajtos/eslint-sandbox.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bajtos/eslint-sandbox/issues"
+  },
+  "homepage": "https://github.com/bajtos/eslint-sandbox#readme",
+  "dependencies": {
+    "@types/mocha": "^5.2.7",
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "typescript": "^3.5.1"
+  }
+}
